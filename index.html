@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJET HTML 1</title>
+</head>
+<body>
+
+    <!--Barre de navigation-->
+
+    <nav>
+        <div>
+            <img src="Images/Logo GEG.jpg" alt="Logo GEG" style="width: 200px;">
+            <h1> Mon portfolio </h1>
+        </div>
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#About">About</a>
+            </li>
+            <li>
+                <a href="#Work">Work</a>
+            </li>
+            <li>
+                <a href="#Resume">Resume</a>
+            </li>
+            <li>
+                <a href="#Contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Section hero -->
+
+    <section>
+        <img src="Images/Messi GEG Section hero.jpg" alt="Section hero">
+        <h1> Profitez d'une expérience inédite... </h1>
+        <h4> grâce aux jeux de football que nous installons sur les ordinateurs selon leurs performances ! </h4>
+    </section>
+
+    <!-- Section About -->
+
+    <section id="About"> 
+        <h1> Qui est Good Gaming Entertainment (GEG) ? </h1>
+        <p>Good Gaming Entertainment est une entreprise spécialisée dans l’installation professionnelle de jeux vidéo de football sur ordinateur. Nous configurons eFootball (anciennement Pro Evolution Soccer : PES), EA Sports FC (anciennement FIFA), UFL et Smoke Patch Football Life pour garantir une expérience fluide, optimisée et prête à jouer. Notre expertise couvre l’installation, les réglages graphiques, les mises à jour, ainsi que l’assistance technique complète pour offrir le meilleur du football virtuel à chaque client, à tout moment et partout.</p>
+    </section>
+
+    <!-- Section Work -->
+
+    <section id="Work">
+        <h1> Nos réalisations </h1>
+        <p>Nos réalisations mettent en avant mon expertise dans l’installation et l’optimisation de jeux vidéo de football sur PC. Chaque intervention inclut la configuration complète de eFootball (PES), EA Sports FC (FIFA), UFL et Smoke Patch Football Life, avec mises à jour essentielles, réglages graphiques précis, optimisation des performances et installation de manettes. Chaque projet démontre rigueur, maîtrise technique et capacité à offrir une expérience de jeu fluide, stable et personnalisée pour chaque client en tout lieu possible.</p>
+    </section>
+
+    <!-- Section Resume -->
+
+     <section id="Resume">
+        <h1>Resume</h1>
+        <p>Good Gaming Entertainment est une entreprise spécialisée dans l’installation professionnelle de jeux vidéo de football sur ordinateur. Nous prenons en charge eFootball (PES), EA Sports FC (FIFA), UFL et Smoke Patch Football Life afin d’offrir une expérience complète, fiable et parfaitement optimisée. Notre mission consiste à proposer des installations stables, des réglages graphiques adaptés, des mises à jour récentes et un accompagnement technique personnalisé, permettant à chaque joueur de profiter d’un football virtuel fluide, moderne et performant au quotidien.</p>
+     </section>
+
+     <!-- Section Contact -->
+
+      <section id="Contact">
+        <h4>Contactez nous au : +225 01 42 44 42 97</h4>
+
+        <form id="contactForm" method="post" action="#">
+        <label for="name">Nom</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Téléphone</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9+\s\-()]{6,}" placeholder="+225 ..." >
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+
+      </section>
+
+      <!-- Pied de page (footer) -->
+
+      <footer>
+
+            <img src="Images/Logo GEG.jpg" alt="Logo GEG" style="width:100px;">
+            <div>
+                <h3>Good Gaming Entertainment</h3>
+                <p>Installation & optimisation de jeux de foot sur PC</p>
+            </div>
+    
+            <div>
+                <h4>Contact</h4>
+                <p>Tél : <a href="tel:+2250142444297">+225 01 42 44 42 97</a></p>
+                <p>Email : <a href="yannpaulemmanuelgaming@gmail.com">yannpaulemmanuelgaming@gmail.com</a></p>
+            </div>
+
+            <div>
+                <h4>Liens utiles</h4>
+                <ul>
+                    <li><a href="#About">À propos</a></li>
+                    <li><a href="#Work">Réalisations</a></li>
+                    <li><a href="#Resume">Resume</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Suivez-nous</h4>
+                <p>
+                    <a href="#" rel="noopener" aria-label="Facebook GEG">Facebook</a> •
+                    <a href="#" rel="noopener" aria-label="Instagram GEG">Instagram</a> •
+                    <a href="#" rel="noopener" aria-label="YouTube GEG">YouTube</a>
+                </p>
+            </div>
+    
+
+    <div>
+        <p>© 2025 Good Gaming Entertainment — Tous droits réservés.</p>
+        <a class="back-to-top" href="#top">Haut de page ↑</a>
+    </div>
+    
+      </footer>
+
+</body>
+
+</html>
