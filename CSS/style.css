@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+	--nav-gap: 1rem;
+}
+
+html.site-html, body.site-body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', Arial, sans-serif;
+	background: #ffffff;
+	color: #111;
+}
+
+/* Navigation inline */
+.navbar {
+	display: block;
+	width: 100%;
+	padding: 1rem 1.25rem;
+	box-sizing: border-box;
+}
+
+.navbar .brand {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.navbar .nav-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.navbar .nav-list li {
+	display: inline;
+	margin-right: var(--nav-gap);
+}
+
+.navbar .nav-list li a {
+	text-decoration: none;
+	color: inherit;
+	padding: 0.25rem 0.5rem;
+}
+
+/* Small responsive tweak */
+@media (max-width: 600px) {
+	.navbar .brand, .navbar .nav-list { display: block; text-align: center; }
+	.navbar .nav-list li { display: block; margin: 0.25rem 0; }
+}
+
+/* Basic form and footer spacing (optional) */
+form { max-width: 600px; margin: 1rem auto; padding: 0 1rem; }
+footer { padding: 2rem 1rem; background: #f8f8f8; }
